@@ -1,3 +1,9 @@
+"""
+2017/2/16
+hsvnlu
+time: 48ms 97.32%
+spaces: 6.5MB 74.82%
+"""
 class Solution:
     def numJewelsInStones(self, J, S):
         """
