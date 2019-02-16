@@ -1,10 +1,12 @@
+"""
+2019/2/16
+hsvnlu
+time: 48ms
+space: 6.5MB
+"""
 class Solution:
     def reorganizeString(self, S):
         """
-        2019/2/16
-        hsvnlu
-        time: 48ms
-        space: 6.5MB
         :type S: str
         :rtype: str
         """
