@@ -12,10 +12,8 @@ class Solution:
         :type target: int
         :rtype: bool
         """
-        row = len(matrix)
-        if row == 0: return False
-        column = len(matrix[0])
-        if column == 0:return False
+        if len(matrix) == 0 or len(matrix[0]) == 0: return False
+        row, column = len(matrix), len(matrix[0])
         row_rest, col_rest = 0, column - 1
         while row_rest < row and col_rest > -1:
             if target > matrix[row_rest][col_rest]:
