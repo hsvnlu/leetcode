@@ -6,7 +6,7 @@
 
 时间复杂度$O(n^{2})$
 
-*two pointer*的思想，一种高效的遍历
+*two pointers*的思想，一种高效的遍历
 ```python
 s = nums[low] + nums[high]
 if s < target:
@@ -21,7 +21,7 @@ elif s > target:
 ## [15 3Sum](https://leetcode.com/problems/3sum/)
 [translateto2sum](https://github.com/hsvnlu/leetcode/blob/master/1%20medium%203Sum/translatetosum.py)
 
-三个指针固定一个（这里是第一个），之后仍旧是*two pointer*思想，转化为2sum问题
+三个指针固定一个（这里是第一个），之后仍旧是*two pointers*思想，转化为2sum问题
 
 [usedict](https://github.com/hsvnlu/leetcode/blob/master/1%20medium%203Sum/usedict.py)
 
